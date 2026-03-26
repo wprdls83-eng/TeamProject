@@ -8,11 +8,11 @@ AMyActor::AMyActor()
 	PrimaryActorTick.bCanEverTick = true;
 
 }
-
 void AMyActor::BeginPlay()
 {
 	Super::BeginPlay();
 	UE_LOG(LogTemp, Warning, TEXT("BeginPlay ~~~~~~~~~~~"));
+	UE_LOG(LogTemp, Warning, TEXT("BeginPlay !!!!!!!"));
 }
 
 void AMyActor::Tick(float DeltaTime)
