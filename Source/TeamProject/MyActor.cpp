@@ -12,7 +12,7 @@ AMyActor::AMyActor()
 void AMyActor::BeginPlay()
 {
 	Super::BeginPlay();
-
+	UE_LOG(LogTemp, Warning, TEXT("BeginPlay !!!!!!!"));
 }
 
 void AMyActor::Tick(float DeltaTime)
